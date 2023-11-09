@@ -38,4 +38,4 @@ stages:
         tags: |
           $(tag)
     - script:
-        docker run --rm -it -p 80:80 yeasy/simple-web:latest
+        echo "who cares"
