@@ -41,6 +41,6 @@ stages:
     - task: AzureWebAppContainer@1
       displayName: 'Azure Web App on Container Deploy'
       inputs:
-        azureSubscription: $(azureSubscription)
-        appName: $(appName)
-        containers: $(containerRegistry)/$(imageRepository):$(tag)
+        azureSubscription: 'Azure subscription 1(df2be794-11e7-4c72-9386-e59b534a610d)'
+        appName: 'test-deployment-docker'
+        containers: '$(containerRegistry)/$(imageRepository):$(tag)'
