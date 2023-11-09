@@ -12,7 +12,7 @@ variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: 'b42a6343-e04b-42ce-b127-b91c5f2e39c3'
   imageRepository: 'praptiisimpleweb'
-  containerRegistry: 'agcontainer.azurecr.io'
+  containerRegistry: 'agcontainer.azurecr.io' 
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
 
